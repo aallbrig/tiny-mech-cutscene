@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3d3ae7acfb144179717ef1cd1c218ed, type: 3}
   m_Name: Game subtitle
   m_EditorClassIdentifier: 
-  value: Timeline animation (+mp4 export)
+  value: My Game Subtitle
