@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 2046162243169150311}
   - component: {fileID: 6848253269680401836}
   - component: {fileID: 6344399061546129853}
+  - component: {fileID: 1202584819166728266}
+  - component: {fileID: 3217208546967053448}
   m_Layer: 0
   m_Name: Timeline (Director)
   m_TagString: Untagged
@@ -130,6 +132,49 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1202584819166728266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5159191263727396294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Events:
+    m_Signals:
+    - {fileID: 11400000, guid: c6ea93e466db4be4ba33f271bb091d16, type: 2}
+    m_Events:
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 3217208546967053448}
+          m_MethodName: Broadcast
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &3217208546967053448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5159191263727396294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72bbf74b885e4dddb47599357e8ba050, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvents:
+  - {fileID: 11400000, guid: 654cfca8f9ca1a84099ce69ad4f8fb52, type: 2}
 --- !u!1 &7284409790223210469
 GameObject:
   m_ObjectHideFlags: 0
@@ -174,13 +219,7 @@ PrefabInstance:
     - target: {fileID: 4027673406878249679, guid: 9345a3a64f13dfe458bc5b45323383b7,
         type: 3}
       propertyPath: m_WarningMessage
-      value: "\nBinding warning: Some generic clip(s) animate transforms that are
-        already bound by a Humanoid avatar. These transforms can only be changed
-        by Humanoid clips.\n\tTransform 'Mount_Arm_R'\n\tTransform 'Mech_Walker_ROOT'\n\tTransform
-        'Mech_Walker_RightFoot'\n\tTransform 'Mech_Walker_LeftFoot'\n\tTransform
-        'Mech_Walker_RightUpLeg'\n\tTransform 'Mech_Walker_Spine_2'\n\tTransform
-        'Mech_Walker_Hips'\n\tTransform 'Mech_Walker_Spine_1'\n\tTransform 'Mech_Walker_LeftToe'\n\tTransform
-        'Mech_Walker_LeftUpLeg'\n\tand more ..."
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4027673406887592207, guid: 9345a3a64f13dfe458bc5b45323383b7,
         type: 3}
@@ -266,13 +305,7 @@ PrefabInstance:
     - target: {fileID: 4027673406878249679, guid: 9345a3a64f13dfe458bc5b45323383b7,
         type: 3}
       propertyPath: m_WarningMessage
-      value: "\nBinding warning: Some generic clip(s) animate transforms that are
-        already bound by a Humanoid avatar. These transforms can only be changed
-        by Humanoid clips.\n\tTransform 'Mount_Arm_R'\n\tTransform 'Mech_Walker_ROOT'\n\tTransform
-        'Mech_Walker_RightFoot'\n\tTransform 'Mech_Walker_LeftFoot'\n\tTransform
-        'Mech_Walker_RightUpLeg'\n\tTransform 'Mech_Walker_Spine_2'\n\tTransform
-        'Mech_Walker_Hips'\n\tTransform 'Mech_Walker_Spine_1'\n\tTransform 'Mech_Walker_LeftToe'\n\tTransform
-        'Mech_Walker_LeftUpLeg'\n\tand more ..."
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4027673406887592207, guid: 9345a3a64f13dfe458bc5b45323383b7,
         type: 3}
@@ -358,13 +391,7 @@ PrefabInstance:
     - target: {fileID: 4027673406878249679, guid: 9345a3a64f13dfe458bc5b45323383b7,
         type: 3}
       propertyPath: m_WarningMessage
-      value: "\nBinding warning: Some generic clip(s) animate transforms that are
-        already bound by a Humanoid avatar. These transforms can only be changed
-        by Humanoid clips.\n\tTransform 'Mount_Arm_R'\n\tTransform 'Mech_Walker_ROOT'\n\tTransform
-        'Mech_Walker_RightFoot'\n\tTransform 'Mech_Walker_LeftFoot'\n\tTransform
-        'Mech_Walker_RightUpLeg'\n\tTransform 'Mech_Walker_Spine_2'\n\tTransform
-        'Mech_Walker_Hips'\n\tTransform 'Mech_Walker_Spine_1'\n\tTransform 'Mech_Walker_LeftToe'\n\tTransform
-        'Mech_Walker_LeftUpLeg'\n\tand more ..."
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4027673406887592207, guid: 9345a3a64f13dfe458bc5b45323383b7,
         type: 3}

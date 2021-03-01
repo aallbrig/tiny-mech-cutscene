@@ -121,6 +121,53 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &73866860 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6898796042105935199, guid: dcf591bfa3633c446a754965b9217f67,
+    type: 3}
+  m_PrefabInstance: {fileID: 1483244891}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &73866861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 73866860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd2cc9cb6dec4bdda95b26ee68fc328d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soEvent: {fileID: 11400000, guid: 654cfca8f9ca1a84099ce69ad4f8fb52, type: 2}
+  unityEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 73866871}
+        m_MethodName: TransitionToState
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 9b639450258f0a748b45ee27961b08b7,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: ScriptableObjects.FiniteStateMachines.GamePlayCoreFSM.State,
+            Scripts
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &73866871 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6898796042105935194, guid: dcf591bfa3633c446a754965b9217f67,
+    type: 3}
+  m_PrefabInstance: {fileID: 1483244891}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 73866860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96d44ba762e944dfadbd55214c752aeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -552,6 +599,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3223432317321878401, guid: 685fad55335694b4daa97dc06e123c6a,
+        type: 3}
+      propertyPath: m_WarningMessage
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 3488144210322966462, guid: 685fad55335694b4daa97dc06e123c6a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -581,6 +633,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298720256634475651, guid: 685fad55335694b4daa97dc06e123c6a,
+        type: 3}
+      propertyPath: m_WarningMessage
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6346910821429365259, guid: 685fad55335694b4daa97dc06e123c6a,
+        type: 3}
+      propertyPath: m_WarningMessage
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7284409790223210464, guid: 685fad55335694b4daa97dc06e123c6a,
         type: 3}

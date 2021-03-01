@@ -8,6 +8,7 @@ namespace MonoBehaviours.EventProducers
     {
         public List<SceneEvent> sceneEvents = new List<SceneEvent>();
 
-        public void OnEnable() => sceneEvents.ForEach(sceneEvent => sceneEvent.Broadcast());
+        public void Broadcast() => sceneEvents.ForEach(sceneEvent => sceneEvent.Broadcast());
+        public void OnEnable() => Broadcast();
     }
 }
