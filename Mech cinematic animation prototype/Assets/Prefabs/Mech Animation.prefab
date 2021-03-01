@@ -24,8 +24,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 167351322099707038}
-  m_LocalRotation: {x: 0.10917361, y: 0.8733008, z: -0.22933589, w: 0.41573066}
-  m_LocalPosition: {x: -12.020416, y: 7.4779124, z: 24.768158}
+  m_LocalRotation: {x: 0.070326656, y: 0.8850121, z: -0.14219671, w: 0.4377076}
+  m_LocalPosition: {x: -12.292076, y: 5.8648815, z: 24.712175}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 6288233984304480401}
@@ -93,8 +93,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1414875014042660644}
-  m_LocalRotation: {x: 0.10917361, y: 0.8733008, z: -0.22933589, w: 0.41573066}
-  m_LocalPosition: {x: -12.020416, y: 7.4779124, z: 24.768158}
+  m_LocalRotation: {x: 0.070326656, y: 0.8850121, z: -0.14219671, w: 0.4377076}
+  m_LocalPosition: {x: -12.292076, y: 5.8648815, z: 24.712175}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7284409790223210470}
@@ -986,7 +986,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7955077949822350245}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6, y: 0, z: 0}
+  m_LocalPosition: {x: 0.016179562, y: 0.0957849, z: 14.629406}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8803096713126106255}
@@ -1041,14 +1041,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8836732984100915405}
-  m_LocalRotation: {x: 0.012173373, y: 0.86177063, z: -0.50672936, w: 0.020702677}
-  m_LocalPosition: {x: -3, y: 15.095785, z: 22.5}
+  m_LocalRotation: {x: 0.13249542, y: 0.8297606, z: -0.49447957, w: 0.22233371}
+  m_LocalPosition: {x: 0.016179562, y: 15.095785, z: 21.629406}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3089791146803761698}
   m_Father: {fileID: 8803096713126106255}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 61.584003, y: 150, z: 0}
 --- !u!114 &2152131525799808302
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1094,7 +1094,13 @@ PrefabInstance:
     - target: {fileID: 4027673406878249679, guid: 9345a3a64f13dfe458bc5b45323383b7,
         type: 3}
       propertyPath: m_WarningMessage
-      value: 
+      value: "\nBinding warning: Some generic clip(s) animate transforms that are
+        already bound by a Humanoid avatar. These transforms can only be changed
+        by Humanoid clips.\n\tTransform 'Mount_Arm_R'\n\tTransform 'Mech_Walker_ROOT'\n\tTransform
+        'Mech_Walker_RightFoot'\n\tTransform 'Mech_Walker_LeftFoot'\n\tTransform
+        'Mech_Walker_RightUpLeg'\n\tTransform 'Mech_Walker_Spine_2'\n\tTransform
+        'Mech_Walker_Hips'\n\tTransform 'Mech_Walker_Spine_1'\n\tTransform 'Mech_Walker_LeftToe'\n\tTransform
+        'Mech_Walker_LeftUpLeg'\n\tand more ..."
       objectReference: {fileID: 0}
     - target: {fileID: 4027673406887592207, guid: 9345a3a64f13dfe458bc5b45323383b7,
         type: 3}
@@ -1180,7 +1186,13 @@ PrefabInstance:
     - target: {fileID: 4027673406878249679, guid: 9345a3a64f13dfe458bc5b45323383b7,
         type: 3}
       propertyPath: m_WarningMessage
-      value: 
+      value: "\nBinding warning: Some generic clip(s) animate transforms that are
+        already bound by a Humanoid avatar. These transforms can only be changed
+        by Humanoid clips.\n\tTransform 'Mount_Arm_R'\n\tTransform 'Mech_Walker_ROOT'\n\tTransform
+        'Mech_Walker_RightFoot'\n\tTransform 'Mech_Walker_LeftFoot'\n\tTransform
+        'Mech_Walker_RightUpLeg'\n\tTransform 'Mech_Walker_Spine_2'\n\tTransform
+        'Mech_Walker_Hips'\n\tTransform 'Mech_Walker_Spine_1'\n\tTransform 'Mech_Walker_LeftToe'\n\tTransform
+        'Mech_Walker_LeftUpLeg'\n\tand more ..."
       objectReference: {fileID: 0}
     - target: {fileID: 4027673406887592207, guid: 9345a3a64f13dfe458bc5b45323383b7,
         type: 3}
@@ -1266,7 +1278,13 @@ PrefabInstance:
     - target: {fileID: 4027673406878249679, guid: 9345a3a64f13dfe458bc5b45323383b7,
         type: 3}
       propertyPath: m_WarningMessage
-      value: 
+      value: "\nBinding warning: Some generic clip(s) animate transforms that are
+        already bound by a Humanoid avatar. These transforms can only be changed
+        by Humanoid clips.\n\tTransform 'Mount_Arm_R'\n\tTransform 'Mech_Walker_ROOT'\n\tTransform
+        'Mech_Walker_RightFoot'\n\tTransform 'Mech_Walker_LeftFoot'\n\tTransform
+        'Mech_Walker_RightUpLeg'\n\tTransform 'Mech_Walker_Spine_2'\n\tTransform
+        'Mech_Walker_Hips'\n\tTransform 'Mech_Walker_Spine_1'\n\tTransform 'Mech_Walker_LeftToe'\n\tTransform
+        'Mech_Walker_LeftUpLeg'\n\tand more ..."
       objectReference: {fileID: 0}
     - target: {fileID: 4027673406887592207, guid: 9345a3a64f13dfe458bc5b45323383b7,
         type: 3}
