@@ -5,7 +5,7 @@ using ScriptableObjects.Events;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace Tests.MonoBehaviours.EventProducers
+namespace Tests.EditMode.MonoBehaviours.EventProducers
 {
     public class SceneEventOnEnableProducerTests : MonoBehaviour
     {
